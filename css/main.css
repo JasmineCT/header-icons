@@ -1,11 +1,22 @@
 html {
   box-sizing: border-box;
-}
+font-family: Merriweather, serif}
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-.nav li {
-  display: inline-block;
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #d05c2e;
+  color: #fff;
+  position: relative;
+  font-size: 1.125rem;
+  font-weight: bold;
+  text-align: center;
+  padding: .5em 0 0;
+  overflow: hidden;
 }
